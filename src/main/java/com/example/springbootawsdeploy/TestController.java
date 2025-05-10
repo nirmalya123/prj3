@@ -17,7 +17,7 @@ public class TestController {
         return "Project-3 message - Hi.";
     }
     
-    @GetMapping("/heath")
+    @GetMapping("/health")
     public String getMessage() {
         return "ok";
     }
