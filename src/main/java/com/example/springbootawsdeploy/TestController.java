@@ -16,4 +16,9 @@ public class TestController {
     public String getMessage() {
         return "Project-3 message - Hi.";
     }
+    
+    @GetMapping("/heath")
+    public String getMessage() {
+        return "ok";
+    }
 }
